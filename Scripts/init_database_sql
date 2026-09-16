@@ -5,12 +5,19 @@ CREATE DABASE DATAWAREHOUSE
 */
 
 use master;
+
+===================
 --create database
+===================
 
 Create DataBase DataWarehouse;
 
 Use DataWarehouse;
+
+==================
 --create schemas
+==================
+
 Create Schema Bronze;
 Go
 Create Schema Silver;
