@@ -28,6 +28,7 @@ CREATE TABLE Bronze.crm_prd_info (
 	prd_start_dt DATETIME,
 	prd_end_dt DATETIME
 );
+
 IF OBJECT_ID ('Bronze.crm_sales_details', 'U') IS NOT NULL
 	DROP TABLE Bronze.crm_sales_details;
 
@@ -42,6 +43,7 @@ CREATE TABLE Bronze.crm_sales_details (
 	sls_quantitiy INT,
 	sls_price INT
 );
+
 IF OBJECT_ID ('Bronze.erp_cust_az12', 'U') IS NOT NULL
 	DROP TABLE Bronze.erp_cust_az12;
 
